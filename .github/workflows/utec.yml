@@ -142,3 +142,4 @@ jobs:
           gcloud run services update-traffic "$SERVICE_NAME" \
             --region ${{ env.GCP_REGION }} \
             --to-revisions="$STABLE_REV=100"
+
